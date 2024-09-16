@@ -1,0 +1,30 @@
+import turtle
+
+pen = turtle.Turtle()
+
+
+pen.penup()
+pen.goto(0, -100)
+pen.pendown()
+pen.circle(100)
+
+
+pen.penup()
+pen.goto(30, 20)
+pen.pendown()
+pen.circle(15)
+
+pen.penup()
+pen.goto(-30, 20)
+pen.pendown()
+pen.circle(15)
+
+# Draw the mouth (smiling)
+pen.penup()
+pen.goto(-40, -40)
+pen.setheading(-60)
+pen.pendown()
+pen.circle(40, 120)
+
+pen.hideturtle()
+turtle.done()
